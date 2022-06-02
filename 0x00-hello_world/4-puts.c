@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(){
-puts("\"Programming is like building a multilingual puzzlez\0\n");
+puts("\"Programming is like building a multilingual puzzlez");
 return 0;
 }

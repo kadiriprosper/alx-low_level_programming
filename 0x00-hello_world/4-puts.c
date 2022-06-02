@@ -1,6 +1,9 @@
 #include <stdio.h>
-/*
- * main.c
+/**
+ * main - Does main stuff
+ *
+ *
+ * Return: 0
  */
 int main(void)
 {

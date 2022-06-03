@@ -13,12 +13,13 @@ int counter = 48;
 
 while (a < 56)
 {
-	while(b < 57)
+	while (b < 57)
 	{
-		if(b != a){
-		while(c != 58)
+		if (b > a)
 		{
-			if (c != b)
+		while (c != 58)
+		{
+			if (c > b)
 			{
 			putchar(a);
 			putchar(b);

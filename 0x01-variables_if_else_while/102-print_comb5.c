@@ -1,26 +1,34 @@
 #include <stdio.h>
+
 /**
- * main - prints out number combo
+ * main - Prints all possible combinations of two two-digit numbers,
+ * ranging from 0-99, separated by a comma followed by a space.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
-int a = 48;
-int b = 48;
-int c = 48;
-int d = 48;
-while(a < 58)
-{
-	putchar(a);
-	putchar(b);
-	putchar(' ')
-	while(c < 58)
+	int num1, num2;
+
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		putchar(c);
-		putchar(d);
-		d++
-		if (d == 
+		for (num2 = num1 + 1; num2 <= 99; num2++)
+		{
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
 	}
-}
+
+	putchar('\n');
+
+	return (0);
 }

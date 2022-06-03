@@ -1,21 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
+
 /**
- * main - print 0 - F
+ * main - Prints all the numbers of base 16 in lowercase.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
-int n = 0;
+	int num;
+	char letter;
 
-while (n <= 15)
-{
-int y = write(n, '\%', 15);
-putchar(y + '0');
-n++;
-}
-putchar('\n');
-return(0);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }

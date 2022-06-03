@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
  * main - prints out the sign value of a random number
  *
@@ -14,13 +14,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive");
+		puts("is positive");
 	} else if (n == 0)
 	{
-		printf("is zero");
-	} else 
+		puts("is zero");
+	} else
 	{
-		printf("is negative");
+		puts("is negative");
 	}
 	return (0);
 }

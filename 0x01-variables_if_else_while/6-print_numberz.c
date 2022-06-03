@@ -9,11 +9,10 @@ int main(void)
 int n = 0;
 while (n <= 9)
 {
-char char_num = n + '0';
-putchar(char_num);
+putchar(n + '0');
 n++;
 }
 putchar('\n');
-return(0);
+return (0);
 }
 

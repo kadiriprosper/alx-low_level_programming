@@ -23,4 +23,5 @@ putchar(char_uc);
 uc++;
 }
 putchar('\n');
+return(0);
 }

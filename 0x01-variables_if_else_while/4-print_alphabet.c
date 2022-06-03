@@ -21,4 +21,5 @@ int main(void)
 		lc++;
 	}
 	putchar('\n');
+	return(0);
 }

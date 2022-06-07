@@ -8,43 +8,21 @@
 
 void print_to_98(int n)
 {
-if (n > 98)
-{
-while (n != 98)
-{
-char c = n + '0';
-_putchar(c);
-if (n != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
-n--;
-}
-}
-else if(n < 98)
-{
-while (n != 98)
-{
-char c = n + '0';
-_putchar(c);
-if (n != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
-n++;
-}
+int i;
 
-}else
+if (n < 98)
 {
-char c = n + '0';
-_putchar(c);
-if (n != 98)
+for (i = n; i <= 98; i++)
 {
-_putchar(',');
-_putchar(' ');
+printf("%d, ", i);
 }
 }
-_putchar('\n');
+else
+{
+for (i = n; i >= 98; i--)
+{
+printf("%d, ", i);
+}
+}
+printf("\n");
 }

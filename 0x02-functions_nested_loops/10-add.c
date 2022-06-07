@@ -3,8 +3,8 @@
 /**
  * add - a function that returns the sum of two integers
  *
- * @a - param a
- * @b - param b
+ * @a: param a
+ * @b: param b
  *
  * Return: a + b
  */

@@ -3,7 +3,7 @@
 /**
  * jack_bauer - prints some things
  *
- * 
+ *
  * Return: 0
  */
 void jack_bauer(void)

@@ -10,6 +10,5 @@
 int print_last_digit(int c)
 {
 int a = c % 10;
-a = a * 11;
 return (a);
 }

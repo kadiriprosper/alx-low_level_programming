@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_last_digit - prints out the absolute value of a number
  *
@@ -10,5 +10,6 @@
 int print_last_digit(int c)
 {
 int a = c % 10;
+printf("%d", a);
 return (a);
 }

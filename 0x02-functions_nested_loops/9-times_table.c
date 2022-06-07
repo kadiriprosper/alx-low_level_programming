@@ -15,7 +15,7 @@ for (j = 0; j <= 9; j++)
 k = i * j;
 if (k < 10)
 {
-if (i == 0)
+if (j == 0)
 {
 _putchar(k + '0');
 }

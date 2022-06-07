@@ -2,7 +2,7 @@
 /**
  * _islower - prints out the alphabet
  *
- * Parameters: c - the character to be printed
+ * @c: the character to be printed
  * Return: 0
  */
 int _islower(int c)

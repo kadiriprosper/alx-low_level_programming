@@ -13,6 +13,6 @@ return (c * -1);
 }
 else
 {
-return ("%d", c);
+return (c);
 }
 }

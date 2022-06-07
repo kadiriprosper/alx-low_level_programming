@@ -1,6 +1,7 @@
-#ifdef MAIN
-#define MAIN
-
+/**
+ *
+ * _putchar - prints out the _putchar variable
+ *
+ */
 void _putchar(void);
 
-#endif

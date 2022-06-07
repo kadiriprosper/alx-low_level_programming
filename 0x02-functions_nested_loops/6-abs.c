@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _abs - prints out the absolute value of a number
  *
@@ -10,11 +9,10 @@ int _abs(int c)
 {
 if (c < 0)
 {
-int a = c * -1;
-printf("%d", a);
+return (c * -1);
 }
 else
 {
-printf("%d", c);
+return ("%d", c);
 }
 }

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - prints out the alphabet
+ * _islower - prints out the alphabet
  *
- * @param c
+ * Parameters: c - the character to be printed
  * Return: 0
  */
 int _islower(int c)

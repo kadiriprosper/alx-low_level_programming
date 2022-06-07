@@ -8,7 +8,8 @@
 
 void print_to_98(int n)
 {
-while (n < 58)
+char a = (char)(n);
+while (a < 58)
 {
 _putchar(n + '0');
 _putchar(',');

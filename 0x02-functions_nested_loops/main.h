@@ -4,9 +4,9 @@
  * _putchar - prints out the _putchar variable
  *
  */
-void _putchar(void)
+void _putchar(char a)
 {
-printf("_putchar\n");
+putchar(a);
 }
 
 void print_alphabet(void)
@@ -14,6 +14,6 @@ void print_alphabet(void)
     int a = 97;
     while (a < 122)
     {
-        putchar(a + '0');
+        _putchar(a + '0');
     }
 }

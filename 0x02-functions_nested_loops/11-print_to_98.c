@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - prints from n - 98
- * 
+ *
  * @n: from n
  */
 
@@ -17,11 +17,11 @@ for (i = n; i <= 98; i++)
 {
 if(i == 98)
 {
-    printf("%d", i);
+printf("%d", i);
 }
 else
 {
-    printf("%d, ", i);
+printf("%d, ", i);
 }
 }
 }
@@ -31,11 +31,11 @@ for (i = n; i >= 98; i--)
 {
 if(i == 98)
 {
-    printf("%d", i);
+printf("%d", i);
 }
 else
 {
-    printf("%d, ", i);
+printf("%d, ", i);
 }
 }
 }

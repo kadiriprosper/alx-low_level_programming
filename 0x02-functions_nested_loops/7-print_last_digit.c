@@ -9,7 +9,13 @@
 
 int print_last_digit(int c)
 {
-int a = c % 10;
-printf("%d", a);
-return (a);
+int last_digit;
+
+last_digit = c % 10;
+if (last_digit < 0)
+{
+last_digit = last_digit * -1;
+}
+printf("%d\n", last_digit);
+return (last_digit);
 }

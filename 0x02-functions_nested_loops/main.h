@@ -1,5 +1,6 @@
-/**
- * _putchar - prints putchar on the screen
- *
- */
+#ifdef MAIN
+#define MAIN
+
 void _putchar(void);
+
+#endif

@@ -10,11 +10,11 @@ int a = 97;
 int n = 0;
 while (n < 10)
 {
-while (a < 123)
-{
-    _putchar(a);
-    a++;
-}
+    while (a < 123)
+    {
+       _putchar(a);
+        a++;
+    }
 n++;
 }
 }

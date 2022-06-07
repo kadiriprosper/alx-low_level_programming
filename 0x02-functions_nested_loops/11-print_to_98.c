@@ -14,7 +14,7 @@ while (a < 58)
 _putchar(n + '0');
 _putchar(',');
 _putchar(' ');
-n++;
+a++;
 }
 _putchar('\n');
 }

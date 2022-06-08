@@ -18,7 +18,7 @@ int main(void)
     while (n < 50)
     {
         printf("%d, ", sum);
-        b = sum;
+        b = (sum - 1);
         sum += b;
         n++;
     }

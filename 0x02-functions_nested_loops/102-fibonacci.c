@@ -12,14 +12,19 @@ int main(void)
     long b = 2l;
     long sum = 0l;
     long n = 0l;
-    printf("%d, ", a);
-    printf("%d, ", b);
+    printf("%ld, ", a);
+    printf("%ld, ", b);
     while (n < 50)
     {
         sum = a + b;
         a = b;
         b = sum;
-        printf("%d, ", sum);
+        if (n < 49)
+        {
+            printf("%ld, ", sum);
+        }else{
+            printf("%ld\n", sum);
+        }
         n++;
     }
     return (0);

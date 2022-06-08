@@ -21,7 +21,7 @@ a = b;
 b = sum;
 if ((sum <= 4000000) && (sum % 2 == 0))
 {
-    printf("%ld", sum);
+    printf("%ld, ", sum);
 }
 n++;
 }

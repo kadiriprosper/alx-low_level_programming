@@ -8,6 +8,7 @@
 
 int main(void)
 {
+    __uint64_t
 long double a = 1;
 long double b = 2;
 long double sum = 0;
@@ -21,11 +22,11 @@ a = b;
 b = sum;
 if (n < 95)
 {
-printf("%.0Lf, ", sum);
+printf("%ul, ", (unsigned long)sum);
 }
 else
 {
-printf("%.0Lf\n", sum);
+printf("%ul\n", (unsigned long)sum);
 }
 n++;
 }

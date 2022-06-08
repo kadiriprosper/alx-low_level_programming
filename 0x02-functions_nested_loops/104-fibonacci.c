@@ -8,7 +8,6 @@
 
 int main(void)
 {
-    __uint64_t
 long double a = 1;
 long double b = 2;
 long double sum = 0;

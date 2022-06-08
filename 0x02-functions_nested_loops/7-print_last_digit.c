@@ -16,6 +16,6 @@ if (last_digit < 0)
 {
 last_digit = last_digit * -1;
 }
-printf("%d\n", last_digit);
+printf("%d", last_digit);
 return (last_digit);
 }

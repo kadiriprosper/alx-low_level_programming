@@ -8,10 +8,10 @@
 
 int main(void)
 {
-    int a = 1;
-    int b = 2;
-    int sum = 0;
-    int n = 0;
+    long a = 1l;
+    long b = 2l;
+    long sum = 0l;
+    long n = 0l;
     printf("%d, ", a);
     printf("%d, ", b);
     while (n < 50)

@@ -19,7 +19,7 @@ while (n < 48)
 sum = a + b;
 a = b;
 b = sum;
-if ((sum <= 5000000) && (sum % 2 == 0))
+if ((sum > 4000000) && (sum % 2 == 0))
 {
     printf("%ld, ", sum);
 }

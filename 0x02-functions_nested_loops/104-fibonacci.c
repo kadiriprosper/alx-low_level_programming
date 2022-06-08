@@ -12,8 +12,8 @@ long double a = 1;
 long double b = 2;
 long double sum = 0;
 long double n = 0;
-printf("%Lf, ", a);
-printf("%Lf, ", b);
+printf("%.0Lf, ", a);
+printf("%.0Lf, ", b);
 while (n < 96)
 {
 sum = a + b;
@@ -21,11 +21,11 @@ a = b;
 b = sum;
 if (n < 95)
 {
-printf("%Lf.0f, ", sum);
+printf("%.0Lf, ", sum);
 }
 else
 {
-printf("%Lf.0f\n", sum);
+printf("%.0Lf\n", sum);
 }
 n++;
 }

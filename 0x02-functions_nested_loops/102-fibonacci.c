@@ -12,8 +12,8 @@ int main(void)
     int b = 2;
     int sum = 0;
     int n = 0;
-    printf("%a, ", a);
-    printf("%b, ", b);
+    printf("%d, ", a);
+    printf("%d, ", b);
     sum = a + b;
     while (n < 50)
     {

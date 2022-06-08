@@ -21,11 +21,11 @@ a = b;
 b = sum;
 if (n < 95)
 {
-printf("%ul, ", (unsigned long)sum);
+printf("%lu, ", (unsigned long)sum);
 }
 else
 {
-printf("%ul\n", (unsigned long)sum);
+printf("%lu\n", (unsigned long)sum);
 }
 n++;
 }

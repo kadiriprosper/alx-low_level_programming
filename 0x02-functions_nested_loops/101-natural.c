@@ -18,5 +18,6 @@ sum += a;
 }
 a++;
 }
+printf("%d\n", sum);
 return (0);
 }

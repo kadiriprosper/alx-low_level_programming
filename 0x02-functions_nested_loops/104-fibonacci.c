@@ -21,11 +21,11 @@ a = b;
 b = sum;
 if (n < 95)
 {
-printf("%Lf, ", sum);
+printf("%Lf.0f, ", sum);
 }
 else
 {
-printf("%Lf\n", sum);
+printf("%Lf.0f\n", sum);
 }
 n++;
 }

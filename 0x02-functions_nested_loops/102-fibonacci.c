@@ -12,12 +12,14 @@ int main(void)
     int b = 2;
     int sum = 0;
     int n = 0;
+    printf("%a, ", a);
+    printf("%b, ", b);
+    sum = a + b;
     while (n < 50)
     {
-        sum += (a + b);
         printf("%d, ", sum);
-        a++;
-        b++;
+        b = sum;
+        sum += b;
         n++;
     }
     return (0);

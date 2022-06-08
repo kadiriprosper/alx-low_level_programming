@@ -8,12 +8,12 @@
 
 int main(void)
 {
-long a = 1l;
-long b = 2l;
-long sum = 0l;
-long n = 0l;
-printf("%ld, ", a);
-printf("%ld, ", b);
+unsigned long a = 1ul;
+unsigned long b = 2ul;
+unsigned long sum = 0ul;
+unsigned long n = 0ul;
+printf("%lu, ", a);
+printf("%lu, ", b);
 while (n < 96)
 {
 sum = a + b;
@@ -21,11 +21,11 @@ a = b;
 b = sum;
 if (n < 95)
 {
-printf("%ld, ", sum);
+printf("%lu, ", sum);
 }
 else
 {
-printf("%ld\n", sum);
+printf("%lu\n", sum);
 }
 n++;
 }

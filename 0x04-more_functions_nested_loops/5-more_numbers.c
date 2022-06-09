@@ -8,16 +8,22 @@
  */
 void print_numbers(void)
 {
-int i;
+int i = 0;
 int j = 0;
-
-while (j <= 10)
+while (i <= 10)
 {
-for (i = 0; i <= 14; i++)
+if(i == 10){
+i = 1;
+_putchar(i + '0');
+while (j <= 4)
 {
-printf("%d", i);
-}
-printf("\n");
+_putchar(i + '0');
 j++;
 }
+break;
+}
+i++;
+}
+_putchar('\n');
+return (0);
 }

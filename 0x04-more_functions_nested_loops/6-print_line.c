@@ -2,7 +2,7 @@
 
 /**
  * print_line - print a line of n characters
- * 
+ *
  * Return: n
  */
 

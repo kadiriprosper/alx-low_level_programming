@@ -12,7 +12,8 @@ int i = 0;
 int j = 0;
 while (i <= 10)
 {
-if(i == 10){
+if (i == 10)
+{
 i = 1;
 _putchar(i + '0');
 while (j <= 4)

@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_line - print a line of n characters
  *
  * Return: n
  */
-
 void print_line(int n)
 {
 int i;

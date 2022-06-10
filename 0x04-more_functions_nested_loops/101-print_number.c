@@ -20,7 +20,7 @@ _putchar('0');
 }
 else
 {
-for (i = 1; i <= n; i *= 10)
+for (i = 1; i != n; i *= 10)
 {
 _putchar((n / i) % 10 + '0');
 }

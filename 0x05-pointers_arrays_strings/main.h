@@ -1,1 +1,1 @@
-void reset_to_98(int *n);
+int reset_to_98(int *n);

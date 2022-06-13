@@ -6,7 +6,7 @@
  * @*n: pointer to the variable to change
  * Return: 0
  */
-void reset_to_98(int *n)
+int reset_to_98(int *n)
 {
 *n = 98;
 return (0);

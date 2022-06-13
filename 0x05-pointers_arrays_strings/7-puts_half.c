@@ -16,7 +16,7 @@ i++;
 }
 i = i / 2;
 j = i;
-p = (i * 2) - 1;
+p = (i * 2);
 while (j < p)
 {
 _putchar(str[j]);

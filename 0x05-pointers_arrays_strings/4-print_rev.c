@@ -13,8 +13,8 @@ int len = 0;
 while (s[len] != '\0')
 len++;
 
-while (i < (len + 1))
-{
+len++;
+while (i < len)
 putchar(s[len - 1]);
 len--;
 }

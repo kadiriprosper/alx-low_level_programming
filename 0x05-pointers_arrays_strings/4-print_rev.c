@@ -15,7 +15,7 @@ i++;
 }
 while (i >= 0)
 {
-printf("%c", s[i]);
+_putchar(s[i]);
 i--;
 }
 }

@@ -17,9 +17,8 @@ length++;
 
 while (length != 0)
 {
-a[p] = s[length];
+s[p] = a[length];
 length--;
 p++;
 }
-*s = *a;
 }

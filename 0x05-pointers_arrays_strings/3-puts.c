@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts - Prints a string to the standard output.
@@ -8,6 +9,6 @@
 void _puts(char *str)
 {
 while (*str)
-_putchar(*str++);
-_putchar('\n');
+putchar(*str++);
+putchar('\n');
 }

@@ -15,9 +15,9 @@ while (str[i] != '\0')
 i++;
 }
 i = i / 2;
-j = i - 1;
+j = i;
 p = (i * 2);
-while (j < p)
+while (j <= p)
 {
 _putchar(str[j]);
 j++;

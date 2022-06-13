@@ -21,5 +21,5 @@ a[p] = s[length];
 length--;
 p++;
 }
-s = a;
+*s = *a;
 }

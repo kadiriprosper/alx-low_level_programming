@@ -7,19 +7,8 @@
  */
 int _strlen(char *s)
 {
-char *a = &s;
-int length = *(&s + 1) - s;
-int new = sizeof(s);
-return new;
-}
-
-int main(void)
-{
-    char *str;
-    int len;
-
-    str = "My first strlen!";
-    len = _strlen(str);
-    printf("%d\n", len);
-    return (0);
+int i = 0;
+while (s[i] != '\0')
+i++;
+return (i);
 }

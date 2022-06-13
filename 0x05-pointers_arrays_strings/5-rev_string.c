@@ -15,7 +15,7 @@ while (s[length] != '\0')
 length++;
 }
 
-while (s[length] != '\0')
+while (length != 0)
 {
 a[p] = s[length];
 length--;

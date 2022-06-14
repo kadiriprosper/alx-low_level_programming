@@ -20,4 +20,5 @@ while (i < len)
 putchar(s[len - 1]);
 len--;
 }
+putchar('\n');
 }

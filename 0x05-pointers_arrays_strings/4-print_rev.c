@@ -20,6 +20,9 @@ while (i < len)
 putchar(s[len - 1]);
 len--;
 }
+if(len > 1)
+{
 putchar(s[j]);
+}
 putchar('\n');
 }

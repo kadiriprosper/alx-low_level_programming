@@ -16,9 +16,8 @@ len++;
 }
 while (i < len)
 {
-putchar(s[len - 2]);
+putchar(s[len - 1]);
 len--;
 }
-putchar(s[i]);
 putchar('\n');
 }

@@ -5,7 +5,7 @@
  * @a: array of integers
  * Return: void
  */
-void print_Array(int *a, int n)
+void print_array(int *a, int n)
 {
 int i;
 

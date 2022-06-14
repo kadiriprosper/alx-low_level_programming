@@ -15,9 +15,9 @@ while (s[l] < '\0')
 {
 l++;
 }
-for (i = 0; len > 0; len--)
+for (i = 0; len > 0; l--)
 {
-a[i] = s[len];
+a[i] = s[l];
 i++;
 }
 a[i] = '\0';

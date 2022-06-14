@@ -23,7 +23,7 @@ while (i < len)
 putchar(s[len - 1]);
 len--;
 }
-if(p > 1)
+if (p > 1)
 {
 putchar(s[j]);
 }

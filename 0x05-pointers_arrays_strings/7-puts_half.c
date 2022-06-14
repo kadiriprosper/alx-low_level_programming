@@ -23,7 +23,7 @@ else
 {
 j = i / 2;
 }
-p = i * 2;
+p = i;
 
 while (j < p)
 {

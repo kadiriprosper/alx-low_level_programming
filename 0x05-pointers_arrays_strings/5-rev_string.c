@@ -16,7 +16,7 @@ while (s[l] < '\0')
 {
 l++;
 }
-ptr = (char*)malloc(l*sizeof(char));
+a = (char*)malloc(l*sizeof(char));
 for (i = 0; l > 0; l--)
 {
 a[i] = s[l];

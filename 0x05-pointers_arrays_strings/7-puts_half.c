@@ -17,16 +17,15 @@ i++;
 
 if (i % 2 != 0)
 {
-i = (i - 1) / 2;
+j = (i - 1) / 2;
 }
 else
 {
-i = i / 2;
+j = i / 2;
 }
-j = i;
 p = i * 2;
 
-while (j <= p)
+while (j < p)
 {
 _putchar(str[j]);
 j++;

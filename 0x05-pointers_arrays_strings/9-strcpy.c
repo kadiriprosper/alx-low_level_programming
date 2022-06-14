@@ -3,8 +3,8 @@
 
 /**
  * *_strcpy - copies the string pointed to by src
- * @*dest: pointer to destination string
- * @*src: pointer to source string
+ * @dest: pointer to destination string
+ * @src: pointer to source string
  * Return: pointer to destination string
  */
 char *_strcpy(char *dest, char *src)

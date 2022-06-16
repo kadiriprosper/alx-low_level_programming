@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * leet - encodes a string into 1337
@@ -9,8 +10,8 @@ char *leet(char *str)
 {
 int i, j;
 char *leet_str = str;
-char *leet_table = "a4e3g9i8o0s5t7z";
-char *leet_table_2 = "A4E3G9I8O0S5T7Z";
+char *leet_table = "aAeEoOtTlL";
+char *leet_table_2 = "4433007711";
 
 for (i = 0; str[i] != '\0'; i++)
 {

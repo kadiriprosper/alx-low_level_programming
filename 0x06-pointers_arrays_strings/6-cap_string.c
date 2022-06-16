@@ -19,10 +19,6 @@ if (str[j] >= 'a' && str[j] <= 'z')
 str[j] = str[j] - 32;
 }
 }
-else
-{
-str[i] = str[i] - 32;
-}
 }
 return (str);
 }

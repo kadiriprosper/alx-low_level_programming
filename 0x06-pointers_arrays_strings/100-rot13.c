@@ -7,7 +7,7 @@
  */
 char *rot13(char *a)
 {
-int i;
+int i, j;
 
 for (i = 0; a[i] != '\0'; i++)
 {
@@ -18,7 +18,6 @@ a[i] += 13;
 else if ((a[i] >= 'n' && a[i] <= 'z') || (a[i] >= 'N' && a[i] <= 'Z'))
 {
 a[i] -= 13;
-}
 }
 return (a);
 }

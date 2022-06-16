@@ -11,7 +11,7 @@ int i, j;
 
 for (i = 0; str[i] != '\0'; i++)
 {
-if (str[i] == ' ' || str[i] == '\t')
+if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}' || str[i] == '"')
 {
 for (j = i + 1; str[j] != '\0'; j++)
 {

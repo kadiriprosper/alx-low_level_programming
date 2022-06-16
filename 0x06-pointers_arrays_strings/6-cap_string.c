@@ -13,12 +13,15 @@ for (i = 0; str[i] != '\0'; i++)
 {
 if (str[i] == ' ' || str[i] == '\t')
 {
-str[j] = str[j] - 32;
 for (j = i + 1; str[j] != '\0'; j++)
 {
 if (str[j] >= 'a' && str[j] <= 'z')
 str[j] = str[j] - 32;
 }
+}
+else
+{
+str[i] = str[i] - 32;
 }
 }
 return (str);

@@ -5,20 +5,21 @@
  * @str: string to capitalize
  * Return: pointer to str
  */
-char *cap_string(char *str)
+char *cap_stirng(char *str)
 {
 int i, j;
+char *aux;
 
-for (i = 0; str[i] != '\0'; i++)
+aux = str;
+for (i = 0; str[i]; i++)
 {
-if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}' || str[i] == '"')
+if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
 {
-for (j = i + 1; str[j] != '\0'; j++)
+for (j = i + 1; str[j] && str[j] != ' ' && str[j] != '\t' && str[j] != '\n'; j++)
 {
-if (str[j] >= 'a' && str[j] <= 'z')
-str[j] = str[j] - 32;
+str[j] = toupper(str[j]);
 }
 }
 }
-return (str);
+return (aux);
 }

@@ -9,8 +9,6 @@
 
 char *_strchr(char *s, char c)
 {
-char null[] = "NULL";
-char *nullguy = null;
 while (*s != '\0')
 {
 if (*s == c)
@@ -19,5 +17,5 @@ s++;
 }
 if (*s == c)
 return (s);
-return (nullguy);
+return (0);
 }

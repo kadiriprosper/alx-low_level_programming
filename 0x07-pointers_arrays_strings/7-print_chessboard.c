@@ -18,7 +18,7 @@ for (j = 0; j < 8; j++)
 if (j == 0)
 printf("%c", a[i][j]);
 else
-printf(" %c", a[i][j]);
+printf("%c", a[i][j]);
 }
 printf("\n");
 }

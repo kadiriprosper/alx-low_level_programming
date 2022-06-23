@@ -3,7 +3,7 @@
 int tmp_prime(int n, int i);
 
 /**
- * divisore - divisor
+ * divisor - divisor
  * @n: integer param
  * @m: integer param
  * Return: boolean

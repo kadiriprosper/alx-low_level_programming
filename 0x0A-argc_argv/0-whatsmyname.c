@@ -5,7 +5,7 @@
  * @argv: the string to print out 
  * Return: 0
  */
-int main(char* argv[0])
+int main(char* argv)
 {
-printf('%s', argv);
+printf('%s', argv[0]);
 }

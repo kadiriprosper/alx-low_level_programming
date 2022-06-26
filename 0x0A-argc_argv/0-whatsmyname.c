@@ -1,11 +1,15 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints the name of the program
- * @argv: the string to print out 
- * Return: 0
+ * main - prints it's name followed by a new line
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0 if success
  */
-int main(char* argv)
+int main(int argc, char *argv[])
 {
-printf('%s', argv[0]);
+if (argc >= 1)
+printf("%s\n", argv[0]);
+return (0);
 }

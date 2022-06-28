@@ -2,12 +2,11 @@
 
 /**
  * _atoi - Returns a stirng
- * 
- * @s - param
- * Return: int 
+ *
+ * @s: param
+ * Return: int
  */
-
-
-int _atoi(char *s){
+int _atoi(char *s)
+{
 return (*s);
 }

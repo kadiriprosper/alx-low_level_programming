@@ -21,9 +21,9 @@ va_start(ptr, n);
 for (a = 0; a < n; a++)
 {
 if (separator[0] != '\0' && separator != NULL)
-printf("%d%s", va_arg(ptr, int), separator);
+printf("%i%s", va_arg(ptr, unsigned int), separator);
 else
-printf("%d", va_arg(ptr, int));
+printf("%i", va_arg(ptr, unsigned int));
 }
 printf("\n");
 }

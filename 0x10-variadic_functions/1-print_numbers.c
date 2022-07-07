@@ -9,7 +9,7 @@ va_list ptr;
 
 va_start(ptr, n);
 
-for(int a = 0; a < n; a++)
+for (int a = 0; a < n; a++)
 {
 if (*separator)
 printf("%d%s", va_arg(ptr, int), separator);

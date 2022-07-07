@@ -5,7 +5,7 @@
 /**
  * print_numbers - returns the sum of the numbers
  *
- * @seperator: number seperator
+ * @separator: number seperator
  * @n: variadic parameter
  * @...: remaining params
  * Return: sum

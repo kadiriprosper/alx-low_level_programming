@@ -22,8 +22,7 @@ for (a = 0; a < n; a++)
 {
 if (separator[0] != '\0' && separator != NULL)
 printf("%i%s", va_arg(ptr, int), separator);
-else
-printf("%d", va_arg(ptr, int));
+
 }
 printf("\n");
 }

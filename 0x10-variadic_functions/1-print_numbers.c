@@ -12,7 +12,9 @@ va_start(ptr, n);
 for(int a = 0; a < n; a++)
 {
 if (*separator)
-printf("%d%c ", va_arg(ptr, int), *separator);
+printf("%d%s", va_arg(ptr, int), separator);
+else
+printf("%d", va_arg(ptr, int));
 }
 printf("\n");
 }

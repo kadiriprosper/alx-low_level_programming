@@ -1,4 +1,5 @@
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
  * sum_them_all - returns the sum of the numbers
@@ -18,9 +19,7 @@ if (n == 0){
 return (0);
 }
 for (int i = 0; i < n; i++)
-{
 sum += va_arg(ptr, unsigned int);
-}
 
 va_end(ptr);
 

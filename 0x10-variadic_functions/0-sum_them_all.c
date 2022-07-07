@@ -2,7 +2,7 @@
 
 /**
  * sum_them_all - returns the sum of the numbers
- * 
+ *
  * @n: variadic parameter
  * @...: remaining params
  * Return: sum

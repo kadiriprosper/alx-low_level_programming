@@ -20,7 +20,7 @@ va_start(ptr, n);
 
 for (a = 0; a < n; a++)
 {
-if (separator[0] != '\0' && separator != NULL)
+if (separator[0] != '\0')
 printf("%i%s", va_arg(ptr, unsigned int), separator);
 else
 printf("%i", va_arg(ptr, unsigned int));

@@ -1,6 +1,15 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+
+/**
+ * print_numbers - returns the sum of the numbers
+ *
+ * @seperator: number seperator
+ * @n: variadic parameter
+ * @...: remaining params
+ * Return: sum
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int a;

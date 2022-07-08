@@ -26,6 +26,6 @@ printf("%i%s", va_arg(ptr, unsigned int), separator);
 else
 printf("%i", va_arg(ptr, unsigned int));
 }
-va_end(ptr);
 printf("\n");
+va_end(ptr);
 }
